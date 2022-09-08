@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("wall.jpg");
+}
+#box {
+    position: relative;
+    width: 70%;
+    background: transparent;
+    margin: auto;
+    height: 470px;
+    top: 70px;
+    box-shadow: 3px 5px 10px 1px #fff;
+}
+#p1 {
+    background: #fff;
+    width: 50%;
+    height: 470px;
+    float: right;
+}
+#box h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+#mess {
+    position: relative;
+    top: -15px;
+    color: red;
+}
+#btn {
+    position: relative;
+    top: 220px;
+    text-align: center;
+}
+#btn button {
+    width: 60%;
+    padding: 8px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(90deg, #CA21EE 35%, #AA889A 100%);
+}
+#password-input {
+    position: relative;
+    top: 170px;
+    margin: auto;
+}
+#password-input a {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    text-decoration: none;
+}
+#email-input {
+    position: relative;
+    top: 120px;
+    margin: auto;
+}
+#email {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    padding: 10px 12px;
+    border-color: linear-gradient(90deg, #CF00FF 35%, #FF0A90 100%);;
+}
+#pass {
+    width: 100%;
+    padding: 10px 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sign {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width: 720px) {
+    #box {
+        width: 100%;
+    }
+    #p1 {
+        width: 100%;
+    }
+}
+
